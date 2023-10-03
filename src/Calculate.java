@@ -1,5 +1,5 @@
 public class Calculate {
-    public int getPrice(double height, boolean isOdd) {
+    public int getPrice(boolean isOdd, double height) {
         int price = -1;
         if (isOdd == true) {
             if (height > 0 && height <= 2.1) {
