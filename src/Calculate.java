@@ -1,7 +1,7 @@
 public class Calculate {
-    public int getPrice(boolean isOdd, double height) {
+    public int getPrice(boolean isOld, double height) {
         int price = -1;
-        if (isOdd == true) {
+        if (isOld == true) {
             if (height > 0 && height <= 2.1) {
                 price = 0;
             }
